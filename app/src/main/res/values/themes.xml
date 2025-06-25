@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 基础主题 (保持您原有的继承结构) -->
+    <style name="Base.Theme.Asynclayoutdemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 关键颜色定义 (必须添加) -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- 窗口属性 -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+
+        <!-- 兼容AppCompat的属性 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 应用主题 (保持您原有的继承方式) -->
+    <style name="Theme.Asynclayoutdemo" parent="Base.Theme.Asynclayoutdemo">
+        <!-- 可添加项目特有的覆盖属性 -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+</resources>

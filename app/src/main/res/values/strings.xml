@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">asynclayoutdemo</string>
+    <string name="recommend_title">猜你喜欢</string>
+
+
+<style name="Widget.App.Button" parent="Widget.Material3.Button">
+<item name="android:textColor">@color/white</item>
+<item name="backgroundTint">?attr/colorPrimary</item>
+</style>
+
+</resources>
